@@ -3,16 +3,18 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 1.3em;
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #74ebd5, #acb6e5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #74ebd5, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+CLICK TO COPY
 }
 
-#main{
-  padding: 0;
-  margin-top: 12%;
-  letter-spacing: 4px;
-
-  /* margin: auto; */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
-#change{
-  font-size: 1.2em;
-  color: #3399ff;
+
+.col-6 {
+  font-size: 3em;
+  margin-top: 10%;
+
 }
